@@ -40,9 +40,10 @@ export default function Outside_container() {
                 
                 <div className='mx-auto container'>
                 <img src="/line 11.png" />
-                <div className='flex justify-center bg-[url("/line_background.png")] ml-24'>
+                <div className='flex justify-center  ml-24'>
+                    {/* bg-[url("/line_background.png")] */}
                     <div className='flex-auto'>
-                        <img src="/google1.png" className='pt-28 ' />
+                        <img src="/google1.png" className='pt-28' />
                         <img src="/google_icon.png" className='py-32' />
                     </div>
                     <div className='flex-auto'>
@@ -62,20 +63,44 @@ export default function Outside_container() {
                 </div>
                
                <div className='mx-auto container'>
-                <div className="mt-7"><img src="lines.png" width={36} height={36} /></div>
+                <div className="mt-7 w-full flex justify-center item-center"><img src="lines.png"/></div>
                 <img src="/line 11.png" className="mt-7" />
 
-                <div className="flex mt-16">
-                    <div className="ml-48">
+                <div className="flex gap-40 mt-16">
+                    <div>
                         <img src="/because.png" />
-                        <div className='mt-16'><button className="text-white font-font_family font-normal not-italic text-2xl leading-6">Get in touch <span><Image src="/white_arrow.png" width={32} height={32} /></span></button></div>
+                        <div className='mt-16'><button className="text-white font-font_family font-normal not-italic text-2xl leading-6 underline">Get in touch <span><Image src="/white_arrow.png" width={32} height={32} /></span></button></div>
                     </div>
                     <div>
                         <h1 className="font-font_family font-medium not-italic text-xl text-white leading-5">San Diego</h1>
-                        <p className>4275 Executive Square, Suite 200
+                        <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-5'>4275 Executive Square, Suite 200
                             LA Jolla, CA 92037</p>
                     </div>
+
+                     <div>
+                        <h1 className="font-font_family font-medium not-italic text-xl text-white leading-5">Islamabad</h1>
+                        <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-5'>Suite 301-305, Ground Floor, NSTP, NUST H-12, Islamabad</p>
+                        <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-10'>Suite 301-305, Ground Floor, NSTP, NUST H-12, Islamabad</p>
+                    </div>    
+
                 </div>
+                </div>
+
+                <div className='mx-auto container mt-16'>
+                <img src="/line 11.png" />
+                    <div className='flex gap-96 mt-10'>
+                        <div>
+                           <img src="/AlphaSquad.svg"/>
+                        </div>
+                        <div className='font-sans font-medium not-italic text-lg leading-3 text-gray-400'>
+                        Terms of Service
+                        </div>
+                        <div className='font-sans font-medium not-italic text-lg leading-3 text-gray-400'>
+                        Privacy Policy
+                        </div>
+                       
+                    </div>
+                    
                 </div>
             </div>
 

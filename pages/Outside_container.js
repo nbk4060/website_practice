@@ -16,7 +16,7 @@ export default function Outside_container() {
                         </div>
                         <button className='font-sans font-medium not-italic text-xl leading-5 text-white mt-28 mx-[670px]'>VIEW ALL WORK</button>
                         {/* <Image src="/lines_background.png" width={100} height={100} /> */}
-                   
+                        <img src="/line 11.png" className='mt-7' />
                 </div>
                 <div className='mx-auto'>
                 <div className='w-full h-full inset-0 bg-[url("/background_line_image.png")] bg-no-repeat'>
@@ -71,16 +71,18 @@ export default function Outside_container() {
                         <img src="/because.png" />
                         <div className='mt-16'><button className="text-white font-font_family font-normal not-italic text-2xl leading-6 underline">Get in touch <span><Image src="/white_arrow.png" width={32} height={32} /></span></button></div>
                     </div>
+                    <div className='flex gap-8'>
                     <div>
                         <h1 className="font-font_family font-medium not-italic text-xl text-white leading-5">San Diego</h1>
                         <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-5'>4275 Executive Square, Suite 200
-                            LA Jolla, CA 92037</p>
+                         LA Jolla, CA 92037</p>
                     </div>
 
                      <div>
                         <h1 className="font-font_family font-medium not-italic text-xl text-white leading-5">Islamabad</h1>
                         <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-5'>Suite 301-305, Ground Floor, NSTP, NUST H-12, Islamabad</p>
                         <p className='font-sans font-medium not-italic text-lg text-gray-400 leading-7 mt-10'>Suite 301-305, Ground Floor, NSTP, NUST H-12, Islamabad</p>
+                    </div>
                     </div>    
 
                 </div>
@@ -92,12 +94,11 @@ export default function Outside_container() {
                         <div>
                            <img src="/AlphaSquad.svg"/>
                         </div>
-                        <div className='font-sans font-medium not-italic text-lg leading-3 text-gray-400'>
-                        Terms of Service
+                        <div className='flex gap-10 font-sans font-medium not-italic text-lg leading-3 text-gray-400'>
+                        <div>Terms of Service</div>
+                        <div>Privacy Policy</div>
                         </div>
-                        <div className='font-sans font-medium not-italic text-lg leading-3 text-gray-400'>
-                        Privacy Policy
-                        </div>
+                        
                        
                     </div>
                     

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Plus Jakarta Display";
+  src: url("/PlusJakartaSans-Regular.ttf");
+  font-family: "Plus Jakarta Sans";
+  src:url("/PlusJakartaSans-Medium.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

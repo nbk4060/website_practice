@@ -1,0 +1,22 @@
+.container {
+background-color: #e5e5e5;
+}
+.middle_div{
+  position: absolute;
+left: 10%;
+right: 16.82%;
+top: 2.27%;
+bottom: 92.95%;
+
+font-family: Plus Jakarta Display;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 110%;
+/* or 88px */
+
+
+color: #0B0D13;
+
+}
+

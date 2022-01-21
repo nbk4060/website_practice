@@ -133,7 +133,7 @@ export default function Outside_container() {
 
 
                         <div className="lg:flex lg:justify-between lg:mt-16 md:flex md:justify-between md:mt-8 lg:mr-0 md:mr-16 sm:grid sm:grid-cols-2 sm:mt-7 ">
-                            <div className='lg:w-1/3'>
+                            <div className='lg:w-1/3 md:w-1/3'>
                                 <img src="/because.png" className='lg:w-auto md:w-44 lg:h-auto md:h-11 sm:w-[184px] sm:h-auto'   />
                                 <div className='flex mt-16'>
                                     <div><button className="text-white font-font_family font-normal not-italic lg:text-2xl leading-6 underline md:text-sm sm:text-xs sm:leading-3">Get in touch </button></div>
@@ -143,8 +143,8 @@ export default function Outside_container() {
 
                             <div className='lg:w-1/3 lg:mx-0 md:mx-14 md:w-1/3 sm:w-3/4 sm:col-end-2 sm:col-start-2'>
                                 <h1 className="font-font_family font-medium not-italic lg:text-xl text-white leading-5 md:text-lg sm:text-sm sm:leading-5">San Diego</h1>
-                                <div className='font-sans font-medium not-italic lg:text-lg text-gray-400 lg:mt-5 lg:mr-28 md:mt-5 md:text-xs md:mr-14 sm:text-xs sm:leading-4 sm:mt-3'>4275 Executive Square, Suite 200
-                                    <br/>LA Jolla, CA 92037</div>
+                                <div className='font-sans font-medium not-italic lg:text-lg text-gray-400 lg:mt-5 lg:mr-28 md:mt-5 md:text-xs md:mr-0 sm:text-xs sm:leading-4 sm:mt-3'>4275 Executive Square, Suite 200
+                                    LA Jolla, CA 92037</div>
                             </div>
 
                             <div className='lg:w-1/3 lg:mr-64 md:w-1/3 md:mr-0 sm:col-end-4 sm:col-span-2 lg:mt-auto md:mt-auto sm:-mt-7'>

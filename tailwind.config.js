@@ -90,10 +90,10 @@ module.exports = {
          '47px':'47px'
 
       },
-      fontFamily: {
-        font_family:['Plus Jakarta Display'],
-        sans:['Plus Jakarta Sans']
-      },
+      // fontFamily: {
+      //   font_family:['Plus Jakarta Display'],
+      //   sans:['Plus Jakarta Sans']
+      // },
       fontSize:{
         '80px':'80px',
         '20px':'20px',

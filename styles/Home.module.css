@@ -1,4 +1,25 @@
-.container {
+@font-face {
+  font-family: "Plus Jakarta Display";
+  src: url(/PlusJakartaSans-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Plus Jakarta sans";
+  src: url(/PlusJakartaSans-Regular.ttf);
+}
+@font-face {
+  font-family: Plus Jakarata sansmedium-italic;
+  src: url(/PlusJakartaSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Plus Jakarata sansmedium;
+  src: url(/PlusJakartaSans-Medium.ttf);
+}
+
+.font_plusdisplay
+{
+  font-family: "Plus Jakarta Display";
+}
+/* .container {
 background-color: #e5e5e5;
 }
 .middle_div{
@@ -13,10 +34,10 @@ font-style: normal;
 font-weight: bold;
 font-size: 80px;
 line-height: 110%;
-/* or 88px */
+
 
 
 color: #0B0D13;
 
-}
+} */
 

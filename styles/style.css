@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT */
+/* Jarkata Display */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.jarkataDisplay {
+  font-family: "Plus Jakarta Display";
+}
+.input{
+  @apply pb-4 text-lg leading-[18px] font-normal  text-gray-500 outline-none border-b-[1px] border-[#D1D5DB]
+  
+}
+.input{
+  font-family: "Plus Jakarta sans";
+}
+/* Jarkata Sans */
+@font-face {
+  font-family: "Plus Jakarta sans";
+  src: url(/PlusJakartaSans-Regular.ttf);
+}
+@font-face {
+  font-family: Plus Jakarata sansmedium-italic;
+  src: url(/PlusJakartaSans-MediumItalic.ttf);
+}
+@font-face {
+  font-family: Plus Jakarata sansmedium;
+  src: url(/PlusJakartaSans-Medium.ttf);
+}
+p,
+.jarkataSans {
+  font-family: "Plus Jakarta sans";
+}
+.SansmediumItalic {
+  font-family: Plus Jakarata sansmedium-italic;
+}
+.Sansmedium {
+  font-family: Plus Jakarata sansmedium;
+}
+/* FONT */
+
+/* style for parrallex image */
+.parallax-inner {
+  transition: transform 900ms ease-in-out;
+}

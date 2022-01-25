@@ -9,7 +9,7 @@ export default function Img_div() {
       <div className='bg-black lg:w-full flex flex-col items-center justify-center lg:mx-px lg:py-64 lg:mt-20 md:py-32 md:mt-12 md:mx-10 sm:py-24 sm:mx-4 sm:mt-6 py-14 mx-4 mt-6'>
         <img src="/Combined Shape.svg"  alt="logo"/>
       </div>
-      <div className='font-font_family font-bold not-italic lg:text-[80px] lg:leading-[88px] lg:ml-24 lg:mt-6 md:text-4xl md:mt-16 md:ml-16 sm:text-2xl sm:leading-7 sm:mt-10 sm:ml-4 text-2xl leading-7 mt-10 ml-4'>Featured Work</div>
+      <div className='font-bold not-italic lg:text-[80px] lg:leading-[88px] lg:ml-24 lg:mt-6 md:text-4xl md:mt-16 md:ml-16 sm:text-2xl sm:leading-7 sm:mt-10 sm:ml-4 text-2xl leading-7 mt-10 ml-4'>Featured Work</div>
       <div className='flex lg:flex-row md:flex-row sm:flex-col flex-col'>
         <div className="flex-auto">
           <div className='bg-black flex flex-col items-center justify-center lg:py-64 lg:ml-24 lg:mt-16  md:py-32 md:ml-16 md:mt-10 sm:py-64 sm:mx-4 sm:mt-9 py-32 mx-4 mt-9 '>

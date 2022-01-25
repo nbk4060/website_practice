@@ -9,7 +9,7 @@ export default function Outside_container() {
         <div className='flex justify-center w-full z-0'>
           <div className='lg:w-full md:w-[89.5%] absolute mx-auto container h-full'>
             <div className=" w-full flex justify-between z-0 h-full">
-              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[18rem] -mt-20 w-px border-l border-gray-900" />
+              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
               <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
 
               <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
@@ -163,7 +163,7 @@ export default function Outside_container() {
                                 <div className='lg:my-10 md:my-6 sm:my-5 lg:w-1/5 md:w-1/5 sm:w-3/6 my-5 w-4/5'>
                                     <img src="/AlphaSquad.svg" className='lg:w-auto md:w-[184px] sm:w-[184px] w-[150px]'/>
                                 </div>
-                                <div className='lg:w-4/5 md:w-4/5 sm:w-3/6 w-96 ml-16 lg:ml-28 lg:my-11 md:my-[25px] jarkataSans font-medium not-italic lg:text-lg lg:leading-3 text-gray-400 md:text-xs md:leading-[18px] md:ml-32 sm:text-[10px] sm:leading-[18px] sm:my-[21px] text-[10px] leading-[18px] my-[21px]'>
+                                <div className='lg:w-4/5 md:w-4/5 sm:w-3/6 w-96 lg:ml-28 lg:my-11 md:my-[25px] md:ml-16 sm:ml-16 ml-8 jarkataSans font-medium not-italic lg:text-lg lg:leading-3 text-gray-400 md:text-xs md:leading-[18px] md:ml-32 sm:text-[10px] sm:leading-[18px] sm:my-[21px] text-[10px] leading-[18px] my-[21px]'>
                                 <span >Terms of Service</span>
                                 <span className='lg:ml-10 md:ml-32 sm:ml-10 ml-3'>Privacy Policy</span> 
                                 </div>

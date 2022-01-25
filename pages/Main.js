@@ -6,7 +6,7 @@ import Img_div from './Img_div'
 export default function Main() {
   return (
     <>
-      <div className='flex justify-end items-end -mt-10 lg:mr-48 text-[#111827] hover:text-gray-400 md:mr-16 mr-4'><button>Get in touch</button><img src="/Frame.png"/></div>
+      <div className='flex justify-end items-end lg:-mt-10 lg:mr-48 text-[#111827] hover:text-gray-400 md:-mt-4 md:mr-16 sm:-mt-4 -mt-4 mr-4'><button>Get in touch</button><img src="/Frame.png"/></div>
       {/* <div className='mx-auto max-w-[1405px] max-h-[264px] font-font_family font-bold not-italic text-[80px] leading-[88px] mt-[48px]'>
           Move beyond constraints. We collaborate with partners to get shit done
           </div> */}

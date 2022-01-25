@@ -7,15 +7,15 @@ export default function Outside_container() {
             <div className='bg-[#0B0D13] lg:-mt-96 lg:pt-96 md:-mt-44 md:pt-40 sm:-mt-36 sm:pt-36 -mt-24 pt-24'>
             <div className='relative'>
         <div className='flex justify-center w-full z-0'>
-          <div className='w-full absolute mx-auto container h-full'>
+          <div className='lg:w-full md:w-[89.5%] absolute mx-auto container h-full'>
             <div className=" w-full flex justify-between z-0 h-full">
-              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[21rem] md:-mt-40 pt-[18rem] -mt-20 w-px border-l border-gray-900" />
+              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[18rem] -mt-20 w-px border-l border-gray-900" />
               <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
 
               <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
 
               <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
-              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[21rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
+              <div className="h-full lg:pt-[42rem] lg:-mt-96 md:pt-[26rem] md:-mt-40 pt-[23rem] -mt-20 w-px border-l border-gray-900" />
             </div>
           </div>
         </div>

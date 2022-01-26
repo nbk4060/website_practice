@@ -4,13 +4,16 @@ import styles from '../styles/Home.module.css'
 import Main from './Main'
 import Outside_container from './Outside_container'
 
+import CaseStudy_main from './CaseStudy_main'
+import Outer_container from './Outer_container'
+
 export default function Home() {
   return (
     <>
       <div className='relative'>
-        <div className='flex items-center justify-center w-full  z-0'>
+        <div className='flex items-center justify-center w-full'>
           <div className='lg:w-full md:w-[89.5%] absolute mx-auto container h-full'>
-            <div className="w-full -mt-10 flex absolute justify-between z-0 h-full">
+            <div className="w-full -mt-10 flex absolute justify-between h-full">
               <div className="h-full  mt-32 w-px border-l border-gray-200" />
               <div className="h-full w-px border-l border-gray-200" />
 
@@ -26,9 +29,10 @@ export default function Home() {
             <img src="/Combined Shape.svg" className='lg:w-12 md:w-6 sm:w-6 w-6'/>
           </div>
 
-          <Main />
-
-          <Outside_container />
+          {/* <Main /> */}
+            <CaseStudy_main/>
+          {/* <Outside_container /> */}
+          <Outer_container/>
         </div>
       </div>
 
